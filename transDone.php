@@ -20,7 +20,7 @@
 
         if($ssnf!=$ssnt){
         echo "<p class='desg'>TRANSACTION SUCCESFULLY DONE AND UPDATED</p>
-        <a href='start.html' class='button'>Return Back</a>";
+        <a href='index.html' class='button'>Return Back</a>";
         
         $conn=mysqli_connect("localhost", "root", "") or die (mysql_error());
         mysqli_select_db($conn,"employee") or die(mysql_error());
